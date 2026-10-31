@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FD TECH — Studio d'intelligence artificielle & ingénierie logicielle</title>
+  <meta name="description" content="FD TECH conçoit des agents intelligents, des plateformes data et des produits logiciels sur mesure pour les entreprises qui veulent passer à l'ère de l'IA." />
+  <meta name="theme-color" content="#07090f" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="FD TECH" />
+  <meta property="og:title" content="FD TECH — Studio d'intelligence artificielle & ingénierie logicielle" />
+  <meta property="og:description" content="Agents intelligents, plateformes data et applications sur mesure. Des systèmes fiables, sécurisés et mesurables, livrés en 4 semaines." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%2322d3ee'/%3E%3Cstop offset='.5' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%23f472b6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%230b0f19'/%3E%3Cpath d='M15%2045V19h10M15%2032h7M31%2045V19h5a13%2013%200%200%201%200%2026h-5' fill='none' stroke='url(%23g)' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "FD TECH",
+    "description": "Studio d'intelligence artificielle et d'ingénierie logicielle : agents IA, plateformes data, développement sur mesure et MLOps.",
+    "email": "WEBMASTER@HIGHTECH.EDU",
+    "telephone": "+33100000000",
+    "areaServed": "FR",
+    "knowsAbout": ["Intelligence artificielle", "Machine Learning", "Data engineering", "Développement logiciel", "MLOps"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#accueil" aria-label="FD TECH, retour à l'accueil">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="26" height="26">
+            <path d="M15 45V19h10M15 32h7M31 45V19h5a13 13 0 0 1 0 26h-5" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">FD <span class="logo__accent">TECH</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#veille">Veille</a></li>
+          <li><a class="nav__link" href="#realisations">Réalisations</a></li>
+          <li><a class="nav__link" href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm nav__cta" href="#contact">Démarrer un projet</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Basculer le thème clair/sombre" aria-pressed="true">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2 12h2.4M19.6 12H22M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.7 8.7 0 1 0 11.1 11.1Z"/></svg>
+        </button>
+        <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="accueil">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="badge" data-reveal>
+            <span class="badge__dot" aria-hidden="true"></span>
+            Studio IA · Data · Ingénierie logicielle
+          </p>
+
+          <h1 class="hero__title" data-reveal data-reveal-delay="60">
+            Nous transformons l'IA en
+            <span class="gradient-text">avantage compétitif</span>
+            mesurable.
+          </h1>
+
+          <p class="hero__lead" data-reveal data-reveal-delay="120">
+            Agents intelligents, plateformes data et applications sur mesure.
+            Nous concevons des systèmes fiables, sécurisés et pensés pour vos
+            opérations réelles — pas pour la démo.
+          </p>
+
+          <div class="hero__actions" data-reveal data-reveal-delay="180">
+            <a class="btn btn--primary" href="#contact">
+              Réserver un audit gratuit
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#realisations">Voir nos réalisations</a>
+          </div>
+
+          <dl class="hero__stats" data-reveal data-reveal-delay="240">
+            <div class="stat">
+              <dt class="stat__label">Projets livrés</dt>
+              <dd class="stat__value"><span data-count="120" data-suffix="+">0</span></dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__label">Gain de productivité moyen</dt>
+              <dd class="stat__value"><span data-count="38" data-suffix="%">0</span></dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__label">Satisfaction client</dt>
+              <dd class="stat__value"><span data-count="4.9" data-decimals="1" data-suffix="/5">0</span></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual" data-reveal data-reveal-delay="200">
+          <div class="console" aria-hidden="true">
+            <div class="console__bar">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--amber"></span>
+              <span class="dot dot--green"></span>
+              <span class="console__title">fdtech-agent — production</span>
+            </div>
+            <div class="console__body">
+              <pre class="console__code"><code><span class="c-muted">$</span> fdtech deploy --agent support-v2
+<span class="c-ok">✓</span> Modèle connecté <span class="c-muted">(RAG · 14 208 docs)</span>
+<span class="c-ok">✓</span> Guardrails &amp; PII masking <span class="c-ok">actifs</span>
+<span class="c-ok">✓</span> Tests d'évaluation <span class="c-num">96.4%</span> réussis
+<span class="c-ok">✓</span> Déploiement réussi en <span class="c-num">1.8s</span>
+
+<span class="c-muted">→</span> Ticket #4821 résolu par l'agent
+<span class="c-muted">→</span> Temps de réponse moyen <span class="c-num">0.9s</span>
+<span class="c-muted">→</span> Coût par conversation <span class="c-num">-72%</span>
+<span class="c-cursor">▌</span></code></pre>
+            </div>
+            <div class="console__footer">
+              <span class="pill pill--live"><span class="pulse" aria-hidden="true"></span> En ligne</span>
+              <span class="pill">latence 42 ms</span>
+              <span class="pill">uptime 99.98%</span>
+            </div>
+          </div>
+
+          <div class="float-card float-card--top">
+            <span class="float-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.4"/></svg>
+            </span>
+            <div>
+              <strong>Agent RAG</strong>
+              <span>+14 208 documents indexés</span>
+            </div>
+          </div>
+
+          <div class="float-card float-card--bottom">
+            <span class="float-card__icon float-card__icon--violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 18V9M10 18V5M16 18v-6M22 18v-3"/></svg>
+            </span>
+            <div>
+              <strong>ROI moyen</strong>
+              <span>+38% de productivité</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container marquee-wrap" data-reveal>
+        <p class="marquee__label">Ils construisent avec nous</p>
+        <div class="marquee">
+          <div class="marquee__track">
+            <span>ATLAS BANK</span><span>NORDWIND</span><span>VERTEX HEALTH</span><span>LUMEN RETAIL</span><span>ORBIT LOGISTICS</span><span>KAIROS ENERGY</span>
+            <span aria-hidden="true">ATLAS BANK</span><span aria-hidden="true">NORDWIND</span><span aria-hidden="true">VERTEX HEALTH</span><span aria-hidden="true">LUMEN RETAIL</span><span aria-hidden="true">ORBIT LOGISTICS</span><span aria-hidden="true">KAIROS ENERGY</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow" data-reveal>Nos services</p>
+          <h2 class="section__title" data-reveal data-reveal-delay="60">
+            De l'idée au système en production
+          </h2>
+          <p class="section__lead" data-reveal data-reveal-delay="120">
+            Une équipe unique pour la stratégie, la data, le modèle et le produit.
+            Vous n'avez qu'un seul interlocuteur, nous portons la complexité technique.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 1 4 4v1h1a3 3 0 0 1 0 6h-1v1a4 4 0 0 1-8 0v-1H7a3 3 0 0 1 0-6h1V7a4 4 0 0 1 4-4Z"/></svg>
+            </span>
+            <h3>Agents &amp; assistants IA</h3>
+            <p>Assistants connectés à vos données, capables d'agir dans vos outils (CRM, ERP, ticketing) avec garde-fous et traçabilité.</p>
+            <ul class="card__list">
+              <li>RAG sur documents internes</li>
+              <li>Appels d'outils &amp; workflows</li>
+              <li>Évaluation continue</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal data-reveal-delay="60">
+            <span class="card__icon card__icon--violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+            </span>
+            <h3>Plateformes data</h3>
+            <p>Pipelines fiables, entrepôt unifié et gouvernance : la base saine sans laquelle aucun modèle ne tient en production.</p>
+            <ul class="card__list">
+              <li>Ingestion &amp; qualité</li>
+              <li>dbt, Airflow, Snowflake</li>
+              <li>Observabilité des données</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal data-reveal-delay="120">
+            <span class="card__icon card__icon--pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg>
+            </span>
+            <h3>Développement logiciel</h3>
+            <p>Applications web et API sur mesure, architectures cloud-native, code testé et documenté que vos équipes peuvent reprendre.</p>
+            <ul class="card__list">
+              <li>Next.js, Node, Python</li>
+              <li>Cloud &amp; conteneurs</li>
+              <li>Tests automatisés</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.4 8-8 9-4.6-1-8-4-8-9V7l8-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3>Sécurité &amp; conformité</h3>
+            <p>Privacy by design, cloisonnement des données, journalisation et conformité RGPD / AI Act dès la conception.</p>
+            <ul class="card__list">
+              <li>Analyse de risques</li>
+              <li>Anonymisation &amp; masquage</li>
+              <li>Audit &amp; documentation</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal data-reveal-delay="60">
+            <span class="card__icon card__icon--violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+            </span>
+            <h3>MLOps &amp; industrialisation</h3>
+            <p>Du notebook au service : déploiement, versioning des modèles, monitoring de dérive et maîtrise des coûts d'inférence.</p>
+            <ul class="card__list">
+              <li>CI/CD &amp; infrastructure as code</li>
+              <li>Monitoring &amp; alerting</li>
+              <li>Optimisation des coûts</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal data-reveal-delay="120">
+            <span class="card__icon card__icon--pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16.5 5.6a3.2 3.2 0 0 1 0 5.8M18 20a5.6 5.6 0 0 0-2-4.3"/></svg>
+            </span>
+            <h3>Conseil &amp; formation</h3>
+            <p>Cadrage des cas d'usage, priorisation par le ROI et montée en compétences de vos équipes sur les outils IA.</p>
+            <ul class="card__list">
+              <li>Ateliers d'idéation</li>
+              <li>Roadmap IA à 12 mois</li>
+              <li>Formation sur mesure</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MÉTHODE ================= -->
+    <section class="section section--alt" id="methode">
+      <div class="container">
+        <div class="split">
+          <div class="split__head">
+            <p class="eyebrow" data-reveal>Notre méthode</p>
+            <h2 class="section__title" data-reveal data-reveal-delay="60">
+              4 semaines pour un premier résultat en production
+            </h2>
+            <p class="section__lead" data-reveal data-reveal-delay="120">
+              Pas de projet de 18 mois sans valeur. Nous livrons par incréments
+              courts, mesurés, et nous arrêtons ce qui ne prouve pas son ROI.
+            </p>
+            <a class="btn btn--ghost" href="#contact" data-reveal data-reveal-delay="180">Planifier un cadrage</a>
+          </div>
+
+          <ol class="steps">
+            <li class="step" data-reveal>
+              <span class="step__num">01</span>
+              <div>
+                <h3>Cadrage &amp; audit</h3>
+                <p>Cartographie de vos données, des processus et des risques. Sélection de 2 à 3 cas d'usage à fort impact.</p>
+              </div>
+            </li>
+            <li class="step" data-reveal data-reveal-delay="60">
+              <span class="step__num">02</span>
+              <div>
+                <h3>Prototype mesurable</h3>
+                <p>Un pilote fonctionnel sur vos vraies données, avec des métriques de qualité et de coût définies à l'avance.</p>
+              </div>
+            </li>
+            <li class="step" data-reveal data-reveal-delay="120">
+              <span class="step__num">03</span>
+              <div>
+                <h3>Industrialisation</h3>
+                <p>Intégration à vos systèmes, sécurité, tests, monitoring. Le prototype devient un service fiable.</p>
+              </div>
+            </li>
+            <li class="step" data-reveal data-reveal-delay="180">
+              <span class="step__num">04</span>
+              <div>
+                <h3>Transfert &amp; itération</h3>
+                <p>Documentation, formation de vos équipes et amélioration continue guidée par l'usage réel.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RÉALISATIONS ================= -->
+    <section class="section" id="realisations">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow" data-reveal>Réalisations</p>
+            <h2 class="section__title" data-reveal data-reveal-delay="60">Des résultats, pas des slides</h2>
+          </div>
+          <p class="section__lead section__lead--small" data-reveal data-reveal-delay="120">
+            Trois exemples de systèmes en production, avec les chiffres mesurés
+            après 6 mois d'exploitation.
+          </p>
+        </div>
+
+        <div class="cases">
+          <article class="case" data-reveal>
+            <div class="case__media case__media--1" aria-hidden="true">
+              <span class="case__tag">Banque</span>
+            </div>
+            <div class="case__body">
+              <h3>Assistant conformité pour 400 conseillers</h3>
+              <p>Agent RAG branché sur 12 ans de procédures internes, avec citations obligatoires et journal d'audit.</p>
+              <ul class="case__metrics">
+                <li><strong>-64%</strong><span>temps de recherche</span></li>
+                <li><strong>0</strong><span>hallucination critique</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case" data-reveal data-reveal-delay="80">
+            <div class="case__media case__media--2" aria-hidden="true">
+              <span class="case__tag">Retail</span>
+            </div>
+            <div class="case__body">
+              <h3>Prévision de demande multi-pays</h3>
+              <p>Pipeline temps réel et modèle de prévision sur 1 800 références, connecté à l'outil d'approvisionnement.</p>
+              <ul class="case__metrics">
+                <li><strong>-31%</strong><span>surstock</span></li>
+                <li><strong>+12 pts</strong><span>taux de service</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case" data-reveal data-reveal-delay="160">
+            <div class="case__media case__media--3" aria-hidden="true">
+              <span class="case__tag">Santé</span>
+            </div>
+            <div class="case__body">
+              <h3>Plateforme de tri de dossiers patients</h3>
+              <p>Extraction documentaire et priorisation des demandes, hébergement HDS et validation humaine systématique.</p>
+              <ul class="case__metrics">
+                <li><strong>×3</strong><span>dossiers traités</span></li>
+                <li><strong>98.6%</strong><span>précision extraction</span></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VEILLE TECH ================= -->
+    <section class="section section--alt" id="veille">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow" data-reveal>Veille technologique</p>
+            <h2 class="section__title" data-reveal data-reveal-delay="60">
+              Les meilleures sources pour suivre l'actu tech
+            </h2>
+          </div>
+          <p class="section__lead section__lead--small" data-reveal data-reveal-delay="120">
+            Une sélection de sites et blogs de référence en IA, développement,
+            cybersécurité, constructeurs tech et open source. Chaque lien s'ouvre
+            dans un nouvel onglet.
+          </p>
+        </div>
+
+        <div class="veille__toolbar" data-reveal>
+          <div class="filters" role="group" aria-label="Filtrer les sources par catégorie">
+            <button class="filter is-active" type="button" data-filter="all">
+              Tout <span class="filter__count" data-count-for="all">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="ia">
+              IA <span class="filter__count" data-count-for="ia">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="dev">
+              Développement <span class="filter__count" data-count-for="dev">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="cyber">
+              Cybersécurité <span class="filter__count" data-count-for="cyber">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="actu">
+              Actualités <span class="filter__count" data-count-for="actu">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="tech">
+              Technologie <span class="filter__count" data-count-for="tech">0</span>
+            </button>
+            <button class="filter" type="button" data-filter="open">
+              Open source <span class="filter__count" data-count-for="open">0</span>
+            </button>
+          </div>
+
+          <div class="search">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+            <input id="veilleSearch" type="search" placeholder="Rechercher une source…" aria-label="Rechercher une source" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="links" id="linksGrid">
+          <!-- IA -->
+          <a class="link-card" data-cat="ia" data-search="openai intelligence artificielle gpt chatgpt recherche blog" href="https://openai.com/news" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#10a37f;--lg2:#0b7a5f" aria-hidden="true">OA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>OpenAI News</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Annonces officielles, recherches et mises à jour des modèles GPT.</span>
+              <span class="link-card__url">openai.com/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="anthropic claude intelligence artificielle securite recherche" href="https://www.anthropic.com/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#d97757;--lg2:#a34f33" aria-hidden="true">AN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Anthropic News</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Recherches sur les modèles Claude, sécurité et alignement.</span>
+              <span class="link-card__url">anthropic.com/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="google deepmind gemini recherche ia blog" href="https://deepmind.google/discover/blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#4285f4;--lg2:#1a56b8" aria-hidden="true">DM</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Google DeepMind</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Publications de recherche et avancées des modèles Gemini.</span>
+              <span class="link-card__url">deepmind.google</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="hugging face open source modeles datasets blog" href="https://huggingface.co/blog" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#ffcc4d;--lg2:#e0a800" aria-hidden="true">HF</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Hugging Face Blog</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Modèles ouverts, datasets et tutoriels de la communauté.</span>
+              <span class="link-card__url">huggingface.co/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="mit technology review intelligence artificielle analyse" href="https://www.technologyreview.com/topic/artificial-intelligence/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#e11d48;--lg2:#9f1239" aria-hidden="true">MIT</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>MIT Technology Review</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Analyses de fond sur l'impact réel de l'IA et des technologies.</span>
+              <span class="link-card__url">technologyreview.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="the decoder actualite ia europe analyse" href="https://the-decoder.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#64748b;--lg2:#334155" aria-hidden="true">TD</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Decoder</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Actualité IA indépendante, modèles et enjeux industriels.</span>
+              <span class="link-card__url">the-decoder.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="mistral ai modeles ouverts france nouveaute ia" href="https://mistral.ai/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="240">
+            <span class="link-card__logo" style="--lg1:#ff7000;--lg2:#c2410c" aria-hidden="true">MI</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Mistral AI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Annonces des modèles français Mistral, ouverts et performants.</span>
+              <span class="link-card__url">mistral.ai/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="meta ai llama recherche blog intelligence artificielle" href="https://ai.meta.com/blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="280">
+            <span class="link-card__logo" style="--lg1:#0866ff;--lg2:#0a3d91" aria-hidden="true">ME</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Meta AI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Recherches et modèles Llama du laboratoire d'IA de Meta.</span>
+              <span class="link-card__url">ai.meta.com/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="the batch deeplearning ai newsletter hebdomadaire" href="https://www.deeplearning.ai/the-batch/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="320">
+            <span class="link-card__logo" style="--lg1:#14b8a6;--lg2:#0f766e" aria-hidden="true">TB</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Batch</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">La newsletter IA de DeepLearning.AI, décryptée chaque semaine.</span>
+              <span class="link-card__url">deeplearning.ai/the-batch</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="venturebeat ia entreprise actualite modeles levées" href="https://venturebeat.com/category/ai/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="360">
+            <span class="link-card__logo" style="--lg1:#ef4444;--lg2:#991b1b" aria-hidden="true">VB</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>VentureBeat AI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">IA appliquée à l'entreprise : acteurs, produits et financements.</span>
+              <span class="link-card__url">venturebeat.com/category/ai</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="arxiv cs.ai recherche papers publications scientifiques" href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="400">
+            <span class="link-card__logo" style="--lg1:#b31b1b;--lg2:#6b0f0f" aria-hidden="true">AX</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>arXiv cs.AI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Les dernières publications scientifiques en intelligence artificielle.</span>
+              <span class="link-card__url">arxiv.org/list/cs.AI</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="cohere entreprise llm modeles blog recherche" href="https://cohere.com/blog" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="440">
+            <span class="link-card__logo" style="--lg1:#39594d;--lg2:#1f3a30" aria-hidden="true">CO</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Cohere</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Modèles de langage pour l'entreprise, RAG et recherche sémantique.</span>
+              <span class="link-card__url">cohere.com/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="google ai blog gemini annonces intelligence artificielle" href="https://blog.google/innovation-and-ai/technology/ai/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="480">
+            <span class="link-card__logo" style="--lg1:#4285f4;--lg2:#1a56b8" aria-hidden="true">GA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Google AI Blog</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Annonces officielles des produits et recherches IA de Google.</span>
+              <span class="link-card__url">blog.google</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="microsoft ai copilot azure blog intelligence artificielle" href="https://www.microsoft.com/en-us/ai/blog" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="520">
+            <span class="link-card__logo" style="--lg1:#00a4ef;--lg2:#0067a6" aria-hidden="true">MA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Microsoft AI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Copilot, Azure AI et la stratégie intelligence artificielle de Microsoft.</span>
+              <span class="link-card__url">microsoft.com/ai/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="nvidia ai blog gpu generative ia datacenter" href="https://blogs.nvidia.com/blog/category/generative-ai/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="560">
+            <span class="link-card__logo" style="--lg1:#76b900;--lg2:#4a7300" aria-hidden="true">NA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>NVIDIA AI Blog</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">IA générative, GPU et infrastructures de calcul accéléré.</span>
+              <span class="link-card__url">blogs.nvidia.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="apple machine learning research publications ia" href="https://machinelearning.apple.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="600">
+            <span class="link-card__logo" style="--lg1:#6b7280;--lg2:#1f2937" aria-hidden="true">AM</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Apple ML Research</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Publications de recherche en apprentissage automatique d'Apple.</span>
+              <span class="link-card__url">machinelearning.apple.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="aws machine learning blog amazon sagemaker bedrock ia cloud" href="https://aws.amazon.com/blogs/machine-learning/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="640">
+            <span class="link-card__logo" style="--lg1:#ff9900;--lg2:#b45309" aria-hidden="true">AWS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>AWS Machine Learning</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">SageMaker, Bedrock et bonnes pratiques IA sur Amazon Web Services.</span>
+              <span class="link-card__url">aws.amazon.com/blogs</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="stanford hai intelligence artificielle recherche societe" href="https://hai.stanford.edu/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="680">
+            <span class="link-card__logo" style="--lg1:#8c1515;--lg2:#5e0e0e" aria-hidden="true">HAI</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Stanford HAI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Recherche sur l'IA centrée sur l'humain et ses impacts sociaux.</span>
+              <span class="link-card__url">hai.stanford.edu</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="mit csail laboratoire informatique ia robotique recherche" href="https://www.csail.mit.edu/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="720">
+            <span class="link-card__logo" style="--lg1:#a31f34;--lg2:#6b1421" aria-hidden="true">CS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>MIT CSAIL</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Le laboratoire d'informatique et d'IA du MIT : recherche et innovations.</span>
+              <span class="link-card__url">csail.mit.edu</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="google research blog publications scientifiques ia" href="https://research.google/blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="760">
+            <span class="link-card__logo" style="--lg1:#34a853;--lg2:#1e7a38" aria-hidden="true">GR</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Google Research</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Publications et avancées des équipes de recherche de Google.</span>
+              <span class="link-card__url">research.google/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="xai grok elon musk annonces intelligence artificielle" href="https://x.ai/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="800">
+            <span class="link-card__logo" style="--lg1:#111827;--lg2:#374151" aria-hidden="true">X</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>xAI</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Annonces officielles des modèles Grok et de la recherche xAI.</span>
+              <span class="link-card__url">x.ai/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="simon willison blog llm developpement ia pratique" href="https://simonwillison.net/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="840">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#075985" aria-hidden="true">SW</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Simon Willison</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Le blog de référence sur les LLM et l'IA en pratique.</span>
+              <span class="link-card__url">simonwillison.net</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="ia" data-search="towards data science articles tutoriels ia data" href="https://towardsdatascience.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="880">
+            <span class="link-card__logo" style="--lg1:#22c55e;--lg2:#15803d" aria-hidden="true">TDS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Towards Data Science</strong><span class="link-card__cat">IA</span></span>
+              <span class="link-card__desc">Articles et tutoriels IA, data science et machine learning.</span>
+              <span class="link-card__url">towardsdatascience.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <!-- DÉVELOPPEMENT -->
+          <a class="link-card" data-cat="dev" data-search="github trending open source projets developpement" href="https://github.com/trending" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#8b5cf6;--lg2:#5b21b6" aria-hidden="true">GH</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>GitHub Trending</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Les dépôts qui font le buzz aujourd'hui, par langage.</span>
+              <span class="link-card__url">github.com/trending</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="stack overflow blog developpeurs enquete qualite code" href="https://stackoverflow.blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#f48024;--lg2:#c05e0d" aria-hidden="true">SO</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Stack Overflow Blog</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Tendances du métier, retours d'expérience et culture dev.</span>
+              <span class="link-card__url">stackoverflow.blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="dev.to communaute articles tutoriels developpement" href="https://dev.to/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#0f172a;--lg2:#334155" aria-hidden="true">DEV</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>DEV Community</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Articles pratiques écrits par la communauté des développeurs.</span>
+              <span class="link-card__url">dev.to</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="mdn mozilla web platform blog html css javascript" href="https://developer.mozilla.org/en-US/blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#3b82f6;--lg2:#1d4ed8" aria-hidden="true">MDN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>MDN Blog</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Nouveautés du web platform : HTML, CSS, JavaScript et APIs.</span>
+              <span class="link-card__url">developer.mozilla.org</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="infoq architecture logicielle agilite tendances" href="https://www.infoq.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#0369a1" aria-hidden="true">IQ</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>InfoQ</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Architecture, agilité et retours d'expérience à grande échelle.</span>
+              <span class="link-card__url">infoq.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="developpez.com actualite tutoriels france developpement" href="https://www.developpez.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#2563eb;--lg2:#1e3a8a" aria-hidden="true">DV</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Developpez.com</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Actualité et tutoriels de référence pour les développeurs francophones.</span>
+              <span class="link-card__url">developpez.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="github blog produit open source developpement nouveautes" href="https://github.blog/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="240">
+            <span class="link-card__logo" style="--lg1:#8b5cf6;--lg2:#5b21b6" aria-hidden="true">GB</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>GitHub Blog</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Nouveautés de la plateforme, Copilot et bonnes pratiques.</span>
+              <span class="link-card__url">github.blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="jetbrains blog ide outils developpeurs kotlin" href="https://blog.jetbrains.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="280">
+            <span class="link-card__logo" style="--lg1:#ff6b00;--lg2:#b34700" aria-hidden="true">JB</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>JetBrains Blog</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">IDE, outils et langages : IntelliJ, Kotlin, PyCharm et plus.</span>
+              <span class="link-card__url">blog.jetbrains.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="vercel blog next.js frontend hebergement developpement" href="https://vercel.com/blog" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="320">
+            <span class="link-card__logo" style="--lg1:#111827;--lg2:#374151" aria-hidden="true">VC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Vercel Blog</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Next.js, frontend moderne et plateformes de déploiement.</span>
+              <span class="link-card__url">vercel.com/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="smashing magazine design web css ux tutoriels" href="https://www.smashingmagazine.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="360">
+            <span class="link-card__logo" style="--lg1:#e85c33;--lg2:#a63a1c" aria-hidden="true">SM</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Smashing Magazine</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Design web, CSS et expérience utilisateur de qualité.</span>
+              <span class="link-card__url">smashingmagazine.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="css-tricks frontend css astuces tutoriels" href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="400">
+            <span class="link-card__logo" style="--lg1:#ff7a59;--lg2:#c2410c" aria-hidden="true">CSS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>CSS-Tricks</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Techniques CSS, layout et bonnes pratiques frontend.</span>
+              <span class="link-card__url">css-tricks.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="dev" data-search="freecodecamp news tutoriels programmation apprendre coder" href="https://www.freecodecamp.org/news/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="440">
+            <span class="link-card__logo" style="--lg1:#0a0a23;--lg2:#1e1e4a" aria-hidden="true">FCC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>freeCodeCamp News</strong><span class="link-card__cat">Dev</span></span>
+              <span class="link-card__desc">Tutoriels et articles pour apprendre à coder gratuitement.</span>
+              <span class="link-card__url">freecodecamp.org/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <!-- CYBERSÉCURITÉ -->
+          <a class="link-card" data-cat="cyber" data-search="the hacker news securite vulnerabilites cyberattaque" href="https://thehackernews.com/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#ef4444;--lg2:#991b1b" aria-hidden="true">THN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Hacker News</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Vulnérabilités, campagnes d'attaque et alertes quotidiennes.</span>
+              <span class="link-card__url">thehackernews.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="bleepingcomputer ransomware malwares securite" href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#0c4a6e" aria-hidden="true">BC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>BleepingComputer</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Ransomware, malwares et incidents de sécurité documentés.</span>
+              <span class="link-card__url">bleepingcomputer.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="krebs on security enquete cybercriminalite securite" href="https://krebsonsecurity.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#475569;--lg2:#1e293b" aria-hidden="true">KS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Krebs on Security</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Enquêtes approfondies sur la cybercriminalité et les fuites de données.</span>
+              <span class="link-card__url">krebsonsecurity.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="anssi gouvernement france recommandations securite" href="https://cyber.gouv.fr/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#1d4ed8;--lg2:#1e3a8a" aria-hidden="true">AN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>ANSSI</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Guides et alertes officiels de l'agence nationale française.</span>
+              <span class="link-card__url">cyber.gouv.fr</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="zataz veille securite hacking fuites" href="https://www.zataz.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#f59e0b;--lg2:#b45309" aria-hidden="true">ZT</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Zataz</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Veille sécurité et hacking en français, enquêtes et fuites de données.</span>
+              <span class="link-card__url">zataz.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="securityweek actualite securite vulnerabilites entreprises" href="https://www.securityweek.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#075985" aria-hidden="true">SW</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>SecurityWeek</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Actualité sécurité orientée entreprise : failles, menaces et conformité.</span>
+              <span class="link-card__url">securityweek.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="dark reading securite entreprise menaces analyse" href="https://www.darkreading.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="240">
+            <span class="link-card__logo" style="--lg1:#334155;--lg2:#0f172a" aria-hidden="true">DR</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Dark Reading</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Analyses et stratégies pour les équipes sécurité en entreprise.</span>
+              <span class="link-card__url">darkreading.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="the record recorded future cyberattaque renseignement" href="https://therecord.media/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="280">
+            <span class="link-card__logo" style="--lg1:#ef4444;--lg2:#7f1d1d" aria-hidden="true">TR</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Record</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Actualité cyber et renseignement sur les menaces, par Recorded Future.</span>
+              <span class="link-card__url">therecord.media</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="schneier securite cryptographie analyse blog" href="https://www.schneier.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="320">
+            <span class="link-card__logo" style="--lg1:#64748b;--lg2:#1e293b" aria-hidden="true">BS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Schneier on Security</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Le blog de référence de Bruce Schneier : crypto, vie privée et société.</span>
+              <span class="link-card__url">schneier.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="sans internet storm center isc menaces vulnerabilites" href="https://isc.sans.edu/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="360">
+            <span class="link-card__logo" style="--lg1:#f97316;--lg2:#9a3412" aria-hidden="true">ISC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>SANS ISC</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Surveillance quotidienne des menaces par le SANS Internet Storm Center.</span>
+              <span class="link-card__url">isc.sans.edu</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="cert fr anssi alertes vulnerabilites avis gouvernement" href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="400">
+            <span class="link-card__logo" style="--lg1:#2563eb;--lg2:#1e3a8a" aria-hidden="true">CF</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>CERT-FR</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Alertes et avis officiels de l'ANSSI sur les vulnérabilités critiques.</span>
+              <span class="link-card__url">cert.ssi.gouv.fr</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="cisa securite cyberattaque agence americaine alertes" href="https://www.cisa.gov/news-events" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="440">
+            <span class="link-card__logo" style="--lg1:#1e40af;--lg2:#0c1e5e" aria-hidden="true">CISA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>CISA</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Alertes et recommandations de l'agence américaine de cybersécurité.</span>
+              <span class="link-card__url">cisa.gov</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="project zero google recherche zero day exploits" href="https://googleprojectzero.blogspot.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="480">
+            <span class="link-card__logo" style="--lg1:#4285f4;--lg2:#174ea6" aria-hidden="true">P0</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Project Zero</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Recherche de vulnérabilités zero-day par l'équipe sécurité de Google.</span>
+              <span class="link-card__url">googleprojectzero.blogspot.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="portswigger research web security burp suite failles" href="https://portswigger.net/research" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="520">
+            <span class="link-card__logo" style="--lg1:#f97316;--lg2:#7c2d12" aria-hidden="true">PS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>PortSwigger Research</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Recherche avancée en sécurité web, à l'origine de Burp Suite.</span>
+              <span class="link-card__url">portswigger.net/research</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="undernews hacking securite france actualite" href="https://undernews.fr/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="560">
+            <span class="link-card__logo" style="--lg1:#111827;--lg2:#374151" aria-hidden="true">UN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>UnderNews</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Actualité hacking et sécurité informatique en français.</span>
+              <span class="link-card__url">undernews.fr</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="cyber" data-search="malwarebytes labs malware ransomwares menaces analyse" href="https://www.malwarebytes.com/blog" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="600">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#0c4a6e" aria-hidden="true">MB</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Malwarebytes Labs</strong><span class="link-card__cat">Cyber</span></span>
+              <span class="link-card__desc">Analyses de malwares, ransomwares et campagnes en cours.</span>
+              <span class="link-card__url">malwarebytes.com/blog</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <!-- ACTUALITÉS -->
+          <a class="link-card" data-cat="actu" data-search="numerama actualite tech societe france" href="https://www.numerama.com/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#e11d48;--lg2:#881337" aria-hidden="true">NU</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Numerama</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">Tech, numérique et société : actualité grand public en français.</span>
+              <span class="link-card__url">numerama.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="actu" data-search="01net actualite high tech tests france" href="https://www.01net.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#dc2626;--lg2:#7f1d1d" aria-hidden="true">01</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>01net</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">Actualité high-tech, tests produits et dossiers pratiques.</span>
+              <span class="link-card__url">01net.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="actu" data-search="le monde informatique entreprise si cloud france" href="https://www.lemondeinformatique.fr/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#0f766e;--lg2:#134e4a" aria-hidden="true">LMI</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Le Monde Informatique</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">SI, cloud et transformation digitale vus côté entreprise.</span>
+              <span class="link-card__url">lemondeinformatique.fr</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="actu" data-search="next ink nextinpact actualite numerique enquete" href="https://next.ink/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#22d3ee;--lg2:#0e7490" aria-hidden="true">NX</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Next</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">Enquêtes et analyses indépendantes sur le numérique.</span>
+              <span class="link-card__url">next.ink</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="actu" data-search="korben blog astuces geek outils" href="https://korben.info/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#f97316;--lg2:#9a3412" aria-hidden="true">KO</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Korben</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">Outils, astuces et découvertes geek au quotidien.</span>
+              <span class="link-card__url">korben.info</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="actu" data-search="journal du hacker jdh communaute actualite" href="https://www.journalduhacker.net/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#16a34a;--lg2:#14532d" aria-hidden="true">JDH</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Journal du Hacker</strong><span class="link-card__cat">Actu</span></span>
+              <span class="link-card__desc">L'actualité tech et libre partagée par la communauté francophone.</span>
+              <span class="link-card__url">journalduhacker.net</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <!-- TECHNOLOGIE -->
+          <a class="link-card" data-cat="tech" data-search="intel processeurs semi-conducteurs puces fonderie newsroom materiel" href="https://newsroom.intel.com/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#0b84d8;--lg2:#005a9c" aria-hidden="true">IN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Intel Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Processeurs, fonderie et annonces officielles sur le matériel Intel.</span>
+              <span class="link-card__url">newsroom.intel.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="google annonces produits android gemini cloud blog officiel" href="https://blog.google/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#4285f4;--lg2:#1a56b8" aria-hidden="true">GO</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Google Blog</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Nouveautés produits, Android, Gemini et infrastructures Google.</span>
+              <span class="link-card__url">blog.google</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="microsoft azure copilot windows annonces entreprise cloud" href="https://news.microsoft.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#00a4ef;--lg2:#0067a6" aria-hidden="true">MS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Microsoft News</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Annonces Azure, Copilot, Windows et stratégie entreprise.</span>
+              <span class="link-card__url">news.microsoft.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="cisco reseaux securite infrastructure cloud newsroom" href="https://newsroom.cisco.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#049fd9;--lg2:#00638a" aria-hidden="true">CI</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Cisco Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Réseaux, cybersécurité et solutions d'infrastructure Cisco.</span>
+              <span class="link-card__url">newsroom.cisco.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="apple iphone mac puces silicium annonces newsroom" href="https://www.apple.com/newsroom/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#6b7280;--lg2:#1f2937" aria-hidden="true">AP</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Apple Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Produits, puces Apple Silicon et annonces officielles.</span>
+              <span class="link-card__url">apple.com/newsroom</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="nvidia gpu intelligence artificielle cuda datacenter" href="https://nvidianews.nvidia.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#76b900;--lg2:#4a7300" aria-hidden="true">NV</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>NVIDIA Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">GPU, accélérateurs IA et infrastructure de datacenter.</span>
+              <span class="link-card__url">nvidianews.nvidia.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="samsung semi-conducteurs mobiles ecrans innovation newsroom" href="https://news.samsung.com/global/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="240">
+            <span class="link-card__logo" style="--lg1:#2b5ce6;--lg2:#1428a0" aria-hidden="true">SS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Samsung Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Mémoires, mobiles, écrans et innovations du groupe Samsung.</span>
+              <span class="link-card__url">news.samsung.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="ibm cloud quantique ia entreprise newsroom" href="https://newsroom.ibm.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="280">
+            <span class="link-card__logo" style="--lg1:#3b82f6;--lg2:#1e40af" aria-hidden="true">IBM</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>IBM Newsroom</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Cloud hybride, informatique quantique et IA pour l'entreprise.</span>
+              <span class="link-card__url">newsroom.ibm.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="ars technica actualite informatique innovation high tech analyse" href="https://arstechnica.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="320">
+            <span class="link-card__logo" style="--lg1:#ff4e00;--lg2:#b33000" aria-hidden="true">ARS</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Ars Technica</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Actualité informatique et analyses techniques approfondies.</span>
+              <span class="link-card__url">arstechnica.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="the verge nouveaute tech produits innovation" href="https://www.theverge.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="360">
+            <span class="link-card__logo" style="--lg1:#8b5cf6;--lg2:#5b21b6" aria-hidden="true">TV</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Verge</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Nouveautés produits, culture tech et tendances grand public.</span>
+              <span class="link-card__url">theverge.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="techcrunch startups levees de fonds innovation numerique" href="https://techcrunch.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="400">
+            <span class="link-card__logo" style="--lg1:#34d399;--lg2:#047857" aria-hidden="true">TC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>TechCrunch</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Startups, levées de fonds et innovations du numérique.</span>
+              <span class="link-card__url">techcrunch.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="wired magazine technologie societe innovation" href="https://www.wired.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="440">
+            <span class="link-card__logo" style="--lg1:#111827;--lg2:#374151" aria-hidden="true">WD</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>WIRED</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Technologie, sciences et impact sociétal, reportages longs.</span>
+              <span class="link-card__url">wired.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="engadget gadgets tests nouveautes high tech" href="https://www.engadget.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="480">
+            <span class="link-card__logo" style="--lg1:#22d3ee;--lg2:#0e7490" aria-hidden="true">EN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Engadget</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Gadgets, tests produits et annonces high-tech.</span>
+              <span class="link-card__url">engadget.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="zdnet informatique entreprise cloud ia transformation" href="https://www.zdnet.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="520">
+            <span class="link-card__logo" style="--lg1:#e11d48;--lg2:#881337" aria-hidden="true">ZD</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>ZDNet</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Informatique d'entreprise, cloud et transformation numérique.</span>
+              <span class="link-card__url">zdnet.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="tom's hardware processeurs cartes graphiques tests materiel" href="https://www.tomshardware.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="560">
+            <span class="link-card__logo" style="--lg1:#dc2626;--lg2:#7f1d1d" aria-hidden="true">TH</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Tom's Hardware</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Tests de processeurs, cartes graphiques et matériel PC.</span>
+              <span class="link-card__url">tomshardware.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="ieee spectrum ingenieurie recherche innovation sciences" href="https://spectrum.ieee.org/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="600">
+            <span class="link-card__logo" style="--lg1:#0ea5e9;--lg2:#075985" aria-hidden="true">IEEE</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>IEEE Spectrum</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Innovations d'ingénierie, robotique et recherche appliquée.</span>
+              <span class="link-card__url">spectrum.ieee.org</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="techradar tests guides achat high tech nouveautes" href="https://www.techradar.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="640">
+            <span class="link-card__logo" style="--lg1:#f59e0b;--lg2:#b45309" aria-hidden="true">TR</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>TechRadar</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Tests, guides d'achat et nouveautés high-tech.</span>
+              <span class="link-card__url">techradar.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="clubic actualite informatique france tests logiciels" href="https://www.clubic.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="680">
+            <span class="link-card__logo" style="--lg1:#2563eb;--lg2:#1e3a8a" aria-hidden="true">CL</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Clubic</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Actualité informatique et high-tech en français.</span>
+              <span class="link-card__url">clubic.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="presse citron innovation numerique startup france" href="https://www.presse-citron.net/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="720">
+            <span class="link-card__logo" style="--lg1:#f97316;--lg2:#9a3412" aria-hidden="true">PC</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Presse-Citron</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">Innovation, numérique et nouveaux usages, en français.</span>
+              <span class="link-card__url">presse-citron.net</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="tech" data-search="actuia intelligence artificielle actualite france innovation" href="https://www.actuia.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="760">
+            <span class="link-card__logo" style="--lg1:#8b5cf6;--lg2:#4c1d95" aria-hidden="true">AIA</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>ActuIA</strong><span class="link-card__cat">Tech</span></span>
+              <span class="link-card__desc">L'actualité de l'IA et de l'innovation technologique en France.</span>
+              <span class="link-card__url">actuia.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <!-- OPEN SOURCE -->
+          <a class="link-card" data-cat="open" data-search="hacker news ycombinator startups tech" href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="link-card__logo" style="--lg1:#fb923c;--lg2:#c2410c" aria-hidden="true">HN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Hacker News</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Le forum de référence des ingénieurs et fondateurs de startups.</span>
+              <span class="link-card__url">news.ycombinator.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="product hunt lancements produits startups outils" href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="40">
+            <span class="link-card__logo" style="--lg1:#f97316;--lg2:#7c2d12" aria-hidden="true">PH</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Product Hunt</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Les nouveaux produits et outils lancés chaque jour.</span>
+              <span class="link-card__url">producthunt.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="linuxfr logiciel libre linux communaute" href="https://linuxfr.org/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="80">
+            <span class="link-card__logo" style="--lg1:#eab308;--lg2:#854d0e" aria-hidden="true">LFR</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>LinuxFr.org</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Actualité du logiciel libre et de la culture libre en français.</span>
+              <span class="link-card__url">linuxfr.org</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="its foss linux tutoriels open source" href="https://itsfoss.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="120">
+            <span class="link-card__logo" style="--lg1:#22c55e;--lg2:#166534" aria-hidden="true">IF</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>It's FOSS</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Tutoriels Linux et découvertes open source accessibles.</span>
+              <span class="link-card__url">itsfoss.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="phoronix linux materiel performances noyau" href="https://www.phoronix.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="160">
+            <span class="link-card__logo" style="--lg1:#94a3b8;--lg2:#475569" aria-hidden="true">PX</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Phoronix</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Noyau Linux, matériel et benchmarks open source.</span>
+              <span class="link-card__url">phoronix.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="lwn.net linux noyau actualite developpement libre" href="https://lwn.net/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="200">
+            <span class="link-card__logo" style="--lg1:#22c55e;--lg2:#15803d" aria-hidden="true">LWN</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>LWN.net</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">L'actualité du noyau Linux et du développement libre, en profondeur.</span>
+              <span class="link-card__url">lwn.net</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="open source initiative osi licences logiciel libre" href="https://opensource.org/news" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="240">
+            <span class="link-card__logo" style="--lg1:#16a34a;--lg2:#14532d" aria-hidden="true">OSI</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Open Source Initiative</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Gouvernance, licences et actualité de l'open source mondial.</span>
+              <span class="link-card__url">opensource.org/news</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="linux foundation communautes projets open source annonces" href="https://www.linuxfoundation.org/press" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="280">
+            <span class="link-card__logo" style="--lg1:#0b57d0;--lg2:#083b8c" aria-hidden="true">LF</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>The Linux Foundation</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Annonces des grands projets open source et de leurs communautés.</span>
+              <span class="link-card__url">linuxfoundation.org</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="omg ubuntu linux distributions nouveautes tutoriels" href="https://www.omgubuntu.co.uk/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="320">
+            <span class="link-card__logo" style="--lg1:#e95420;--lg2:#a33a12" aria-hidden="true">OU</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>OMG! Ubuntu</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Nouveautés Ubuntu, logiciels libres et astuces Linux.</span>
+              <span class="link-card__url">omgubuntu.co.uk</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="distrowatch distributions linux classements nouveautes" href="https://distrowatch.com/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="360">
+            <span class="link-card__logo" style="--lg1:#f59e0b;--lg2:#92400e" aria-hidden="true">DW</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>DistroWatch</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Toutes les distributions Linux, leurs versions et leur popularité.</span>
+              <span class="link-card__url">distrowatch.com</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+
+          <a class="link-card" data-cat="open" data-search="mozilla blog firefox web libre vie privee" href="https://blog.mozilla.org/" target="_blank" rel="noopener noreferrer" data-reveal data-reveal-delay="400">
+            <span class="link-card__logo" style="--lg1:#ff7139;--lg2:#c2410c" aria-hidden="true">MZ</span>
+            <span class="link-card__body">
+              <span class="link-card__top"><strong>Mozilla Blog</strong><span class="link-card__cat">Open</span></span>
+              <span class="link-card__desc">Firefox, standards du web et défense d'un internet ouvert.</span>
+              <span class="link-card__url">blog.mozilla.org</span>
+            </span>
+            <svg class="link-card__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+
+        <p class="links__empty" id="linksEmpty" hidden>
+          Aucune source ne correspond à votre recherche. Essayez un autre mot-clé.
+        </p>
+
+        <p class="veille__note" data-reveal>
+          Sélection éditoriale mise à jour manuellement — aucun contenu de ces sites
+          n'est reproduit ici. Les liens s'ouvrent dans un nouvel onglet.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= TÉMOIGNAGES ================= -->
+    <section class="section" id="temoignages">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow" data-reveal>Témoignages</p>
+          <h2 class="section__title" data-reveal data-reveal-delay="60">Ce que disent nos clients</h2>
+        </div>
+
+        <div class="quotes">
+          <figure class="quote" data-reveal>
+            <blockquote>
+              « FD TECH a livré en six semaines ce que deux prestataires n'avaient pas
+              réussi à cadrer en un an. L'équipe parle métier autant que technique. »
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">SL</span>
+              <span><strong>Sarah Lambert</strong><br /><small>Directrice Digital, Atlas Bank</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote" data-reveal data-reveal-delay="80">
+            <blockquote>
+              « Le monitoring et la maîtrise des coûts ont été décisifs. Nous savons
+              exactement ce que chaque conversation nous coûte. »
+            </blockquote>
+            <figcaption>
+              <span class="avatar avatar--violet" aria-hidden="true">MK</span>
+              <span><strong>Mehdi Kacem</strong><br /><small>CTO, Orbit Logistics</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote" data-reveal data-reveal-delay="160">
+            <blockquote>
+              « Un vrai partenaire d'ingénierie : documentation claire, code propre,
+              et une équipe interne capable de reprendre le projet. »
+            </blockquote>
+            <figcaption>
+              <span class="avatar avatar--pink" aria-hidden="true">AC</span>
+              <span><strong>Amélie Costa</strong><br /><small>Head of Data, Vertex Health</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section--alt" id="faq">
+      <div class="container faq-wrap">
+        <div class="faq-head">
+          <p class="eyebrow" data-reveal>FAQ</p>
+          <h2 class="section__title" data-reveal data-reveal-delay="60">Les questions qu'on nous pose vraiment</h2>
+          <p class="section__lead" data-reveal data-reveal-delay="120">
+            Une autre question ? Écrivez-nous, nous répondons sous 24h ouvrées.
+          </p>
+          <a class="btn btn--ghost" href="mailto:WEBMASTER@HIGHTECH.EDU" data-reveal data-reveal-delay="180">WEBMASTER@HIGHTECH.EDU</a>
+        </div>
+
+        <div class="faq" data-reveal>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Nos données sont-elles utilisées pour entraîner des modèles ?</span>
+              <svg class="icon faq__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq__a"><p>Non. Nous travaillons avec des contrats « zero retention » et des fournisseurs hébergés en Europe. Vos documents restent cloisonnés, chiffrés et ne servent jamais à l'entraînement.</p></div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Faut-il une équipe technique en interne ?</span>
+              <svg class="icon faq__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq__a"><p>Non, mais un référent métier est indispensable. Nous livrons du code documenté et formons vos équipes pour qu'elles puissent reprendre le projet quand elles le souhaitent.</p></div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Combien de temps avant le premier résultat ?</span>
+              <svg class="icon faq__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq__a"><p>Un prototype mesurable est généralement disponible en 2 à 4 semaines. La mise en production d'un premier périmètre restreint prend 6 à 10 semaines selon vos contraintes d'intégration.</p></div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Quels modèles utilisez-vous ?</span>
+              <svg class="icon faq__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq__a"><p>Nous sommes agnostiques : GPT, Claude, Gemini, Mistral ou modèles ouverts auto-hébergés. Le choix dépend de vos contraintes de coût, de latence, de confidentialité et de langue.</p></div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Comment mesurez-vous le ROI ?</span>
+              <svg class="icon faq__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq__a"><p>Nous définissons avant de coder des indicateurs précis : temps gagné par utilisateur, taux de résolution, coût par requête, réduction d'erreurs. Ils sont suivis dans un tableau de bord partagé.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__info">
+            <p class="eyebrow" data-reveal>Contact</p>
+            <h2 class="section__title" data-reveal data-reveal-delay="60">
+              Parlons de votre premier cas d'usage
+            </h2>
+            <p class="section__lead" data-reveal data-reveal-delay="120">
+              30 minutes, sans engagement. Nous identifions ensemble le cas
+              d'usage le plus rentable et les prérequis techniques.
+            </p>
+
+            <ul class="contact__list" data-reveal data-reveal-delay="180">
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+                </span>
+                <div><strong>Email</strong><br /><a href="mailto:WEBMASTER@HIGHTECH.EDU">WEBMASTER@HIGHTECH.EDU</a></div>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z"/></svg>
+                </span>
+                <div><strong>Téléphone</strong><br /><a href="tel:+33100000000">+33 1 00 00 00 00</a></div>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+                </span>
+                <div><strong>Bureaux</strong><br />Paris · Casablanca · 100% remote friendly</div>
+              </li>
+            </ul>
+          </div>
+
+          <form class="form" id="contactForm" novalidate data-reveal data-reveal-delay="120">
+            <div class="form__row">
+              <div class="field">
+                <label for="name">Nom complet <span aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Camille Dupont" required />
+                <span class="field__error" data-error-for="name"></span>
+              </div>
+              <div class="field">
+                <label for="email">Email professionnel <span aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="camille@entreprise.com" required />
+                <span class="field__error" data-error-for="email"></span>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="company">Entreprise</label>
+                <input id="company" name="company" type="text" autocomplete="organization" placeholder="Nom de l'entreprise" />
+              </div>
+              <div class="field">
+                <label for="budget">Budget envisagé</label>
+                <select id="budget" name="budget">
+                  <option value="">À définir</option>
+                  <option>Moins de 10 000 €</option>
+                  <option>10 000 € – 30 000 €</option>
+                  <option>30 000 € – 100 000 €</option>
+                  <option>Plus de 100 000 €</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Votre projet <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Décrivez le contexte, le problème à résoudre et vos contraintes…" required></textarea>
+              <span class="field__error" data-error-for="message"></span>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" id="consent" name="consent" required />
+              <span>J'accepte que mes données soient utilisées pour être recontacté(e) au sujet de ma demande.</span>
+            </label>
+            <span class="field__error" data-error-for="consent"></span>
+
+            <button class="btn btn--primary btn--block" type="submit" id="submitBtn">
+              Envoyer la demande
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </button>
+
+            <p class="form__note">Réponse sous 24h ouvrées. Aucune donnée revendue, jamais.</p>
+            <p class="form__success" id="formSuccess" role="status" hidden>
+              Merci ! Votre demande a bien été enregistrée. Nous revenons vers vous très vite.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="logo" href="#accueil">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="24" height="24"><path d="M15 45V19h10M15 32h7M31 45V19h5a13 13 0 0 1 0 26h-5" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="logo__text">FD <span class="logo__accent">TECH</span></span>
+        </a>
+        <p>Studio d'intelligence artificielle et d'ingénierie logicielle.<br />Nous construisons des systèmes utiles, mesurables et durables.</p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6 9v10M6 5.5v.01M11 19v-6a3 3 0 0 1 6 0v6"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M9 19c-4 1.5-4-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 4.5-1.4 4.5-5a4 4 0 0 0-1.1-2.8 3.7 3.7 0 0 0-.1-2.8s-1.2-.3-3.8 1.4a13 13 0 0 0-6 0C5.4 4.6 4.2 4.9 4.2 4.9a3.7 3.7 0 0 0-.1 2.8A4 4 0 0 0 3 10.5c0 3.6 1.7 4.7 4.5 5-.5.5-.5 1.1-.5 2V21"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Services">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Agents &amp; assistants</a></li>
+          <li><a href="#services">Plateformes data</a></li>
+          <li><a href="#services">Développement</a></li>
+          <li><a href="#services">MLOps</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Entreprise">
+        <h3>Entreprise</h3>
+        <ul>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#veille">Veille tech</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h3>Légal</h3>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> FD TECH. Tous droits réservés.</p>
+      <p class="footer__made">Conçu et développé avec soin.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Revenir en haut">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4M6 10l6-6 6 6"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
